@@ -14,4 +14,4 @@ https://www.acmicpc.net/
 
 ### Rules : README for each question
 
-백준 사이트의 이용규칙(https://help.acmicpc.net/rule)에 따라 <font style="color:pink"><b>문제명, 이름만</b></font> 표기한다.
+백준 사이트의 [이용규칙](https://help.acmicpc.net/rule)에 따라 <font style="color:pink"><b>문제명, 이름만</b></font> 표기한다.
