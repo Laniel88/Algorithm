@@ -1,3 +1,3 @@
-# 다리 놓기 성공 
+# 다리 놓기
 
 https://www.acmicpc.net/problem/1010
