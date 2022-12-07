@@ -8,11 +8,9 @@ https://www.acmicpc.net/
 ## Info
 
 ### ID / Profile
-<div align="center">
-<b>laniel88</b>
+**laniel88**
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=laniel88)](https://solved.ac/laniel88)
-</div>
 
 ### Rules : README for each question
 
