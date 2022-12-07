@@ -30,7 +30,7 @@ Repository of Algorithm studies
 
 - 예를 들어, 백준 1000번(브론즈 V) 문제의 파이썬 첫번째 풀이의 경우:
     ```
-    BaekjoonOnlineJudge/Bronze5/1000-Python3-1.py 
+    BaekjoonOnlineJudge/Bronze5/1000/1000-1.py 
     ```
 
 - 사진을 비롯한 기타 자료는 최상위 `! RES` 폴더에 저장하고, 링크한다.
