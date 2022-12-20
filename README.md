@@ -40,3 +40,7 @@ Repository of Algorithm studies
 
 ## 이론
 
+
+## Milestone.md
+[Milesone.md](Milestone.md)
+

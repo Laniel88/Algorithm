@@ -12,3 +12,9 @@
 # reference
 reference/
 ref/
+
+# Template
+.template/
+
+# Milestone
+Milestone.md

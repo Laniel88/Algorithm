@@ -6,4 +6,5 @@ https://www.acmicpc.net/problem/10926
 
 - [x] C
 - [x] C++
-- [x] Python3
+- [x] Python
+- [ ] Java
