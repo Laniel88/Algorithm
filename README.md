@@ -16,6 +16,7 @@ Repository of Algorithm studies
      - 각각의 분류 기준은 `{1}/README.md`에 명시한다.
   3. **3 : 문제의 번호, 코드, 제목 등**
      - 문제에 관한 상세 정보는 `{1}/{2}/{3}/README.md`에 적는다.
+
 - 코드 파일 : 파일명은 다음과 같다.
    ```
    {문제의 번호, 코드 등}-{분류}.{확장자}
@@ -35,6 +36,15 @@ Repository of Algorithm studies
 
 - 사진을 비롯한 기타 자료는 최상위 `! RES` 폴더에 저장하고, 링크한다.
 
+#### 외부 코드
+👩🏻‍💻 학습을 위헤 다른 사람의 코드, 공식 해설 등을 가져올 때는 파일명(3)을 따르지 않고 `ref{num}`로 파일명을 설정해 구분한다.
+- 예시 :
+    ```
+    BaekjoonOnlineJudge/Bronze5/1000/ref1.cpp 
+    ```
+- 주석에 출처를 표기한다.
+- github에는 올리지 않는다(gitignore 시킨다, ~10개까지)
+
 ---
 
 알고리즘의 이론별로 정리하지 않고, 특정 이론과 관련된 공부는 위의 방식대로 정리하되, 아래의 위키문서에 따로 링크한다.
@@ -42,6 +52,6 @@ Repository of Algorithm studies
 ## 이론
 
 
-## Milestone.md
+## Milestone
 [Milesone.md](Milestone.md)
 

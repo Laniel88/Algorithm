@@ -14,7 +14,8 @@
 구종만 지음, 인사이트, ISBN 978-89-6626-054-6  
 a.k.a 종만북
 
-## Rules : 
+## Rules 
+### Classification
 Chapter을 기준으로 분류한다.
 문제 파일명은 문제ID로 한다.
 
