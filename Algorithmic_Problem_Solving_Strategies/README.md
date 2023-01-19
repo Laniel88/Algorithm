@@ -16,12 +16,10 @@ a.k.a 종만북
 
 ## Rules 
 ### Classification
-Chapter을 기준으로 분류한다.
-문제 파일명은 문제ID로 한다.
+X (바로 문제 폴더) , 문제 ID를 제목으로
 
 ### README for each question
 다음을 포함 :
 - Chapter명
 - 문제 이름
-- 문제 ID
-- [알고스팟](https://algospot.com/)에 있다면 링크도 추가
+- 문제 ID와 링크

@@ -9,22 +9,27 @@
 # vsCode
 .vscode/
 
+# test
+test/
+test.*
+
+# etc
+.etc/
+
+# note
+Notes.md
+
 # reference
 reference/
 ref/
-ref1.*
-ref2.*
-ref3.*
-ref4.*
-ref5.*
-ref6.*
-ref7.*
-ref8.*
-ref9.*
-ref10.*
+ref*.*
 
 # Template
 .template/
 
 # Milestone
 Milestone.md
+
+# Mecro : 폴더, readme 자동생성 메크로
+.mecro/
+boj_mecro.py
