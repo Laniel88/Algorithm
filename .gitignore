@@ -3,10 +3,8 @@
 .AppleDouble
 .LSOverride
 
-# Obsidian
+# Editor, Compiler settings
 .obsidian/
-
-# vsCode
 .vscode/
 
 # test

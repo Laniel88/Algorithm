@@ -5,6 +5,6 @@ https://www.acmicpc.net/problem/2447
 
 ## Submits
 
-- [ ] C++
+- [x] C++
 - [ ] Python
 - [ ] Java
