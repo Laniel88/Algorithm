@@ -7,4 +7,4 @@ https://www.acmicpc.net/problem/10869
 - [x] C
 - [x] C++
 - [x] Python
-- [ ] Java
+- [x] Java
