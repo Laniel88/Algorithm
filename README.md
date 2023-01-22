@@ -1,6 +1,10 @@
 # Algorithm
 
-Repository of Algorithm studies
+**Repository of Algorithm studies**
+
+알고리즘 공부 내용을 정리하고 있는 레파지토리입니다.
+
+> 주 언어는 Java이며, 필요에 따라 C++ 과 Python 등의 언어도 사용합니다.
 
 ## Rule
 
@@ -29,7 +33,7 @@ Repository of Algorithm studies
   >
   > - 같은 문제와 언어에 대해 여러 종류의 코드가 있을 때 구별하기 위해 사용
   > - "", 2, 3, 4 .. 로 표기
-  > - 자바 파일의 경우 `main` 대신 `Main`으로 한다.
+  > - 🙏 자바 파일의 경우 `main` 대신 `Main`으로 한다.
 
 - 특별한 이유가 없다면 폴더/파일명은 영어로 적으며, 파스칼 케이스(pascal case)로 표기한다.
 
@@ -41,6 +45,14 @@ Repository of Algorithm studies
   BaekjoonOnlineJudge/Bronze5/1000/main.py
   BaekjoonOnlineJudge/Bronze5/1000/main2.py
   ```
+  
+  
+
+
+
+----
+
+
 
 #### 외부 코드
 
@@ -51,11 +63,10 @@ Repository of Algorithm studies
   BaekjoonOnlineJudge/Bronze5/1000/ref1.cpp
   ```
 - 주석에 출처를 표기한다.
-- github에는 올리지 않는다(gitignore)
+- github에는 올리지 않는다 (gitignore)
 
 ---
 
 알고리즘의 이론별로 정리하지 않고 위의 방식대로 정리하되,
 분류가 필요한 문제들은 [`classification.md`](./classification.md)에 따로 링크한다.
-
 
