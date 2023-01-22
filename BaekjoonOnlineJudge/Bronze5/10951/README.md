@@ -2,9 +2,3 @@
 
 https://www.acmicpc.net/problem/10951
 
-## Submits
-
-- [x] C
-- [x] C++
-- [x] Python
-- [ ] Java

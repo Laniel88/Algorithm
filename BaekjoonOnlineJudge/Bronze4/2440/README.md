@@ -3,8 +3,4 @@
 
 https://www.acmicpc.net/problem/2440
 
-## Submits
 
-- [x] C++
-- [x] Python
-- [ ] Java

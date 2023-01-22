@@ -20,6 +20,8 @@ https://www.acmicpc.net/
 
 티어(Bronze5, Bronze4, ...) 별로 분류한다.
 
+문제 폴더명은 문제번호로 한다.
+
 #### README for each question
 
 백준 사이트의 [이용규칙](https://help.acmicpc.net/rule)에 따라 <font style="color:pink"><b>문제명, 이름만</b></font> 표기한다.

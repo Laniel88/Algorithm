@@ -19,7 +19,8 @@ a.k.a 종만북
 X (바로 문제 폴더) , 문제 ID를 제목으로
 
 ### README for each question
+
 다음을 포함 :
 - Chapter명
 - 문제 이름
-- 문제 ID와 링크
+- 문제 ID와 링크(알파고스팟)
