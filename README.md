@@ -45,14 +45,11 @@
   BaekjoonOnlineJudge/Bronze5/1000/main.py
   BaekjoonOnlineJudge/Bronze5/1000/main2.py
   ```
-  
-  
-
 
 
 ----
 
-
+## ETC
 
 #### 외부 코드
 
@@ -65,8 +62,19 @@
 - 주석에 출처를 표기한다.
 - github에는 올리지 않는다 (gitignore)
 
----
+#### 이론별 정리
 
-알고리즘의 이론별로 정리하지 않고 위의 방식대로 정리하되,
+알고리즘의 이론별로 정리하지 않고 위의 방식대로 정리하되,  
 분류가 필요한 문제들은 [`classification.md`](./classification.md)에 따로 링크한다.
 
+#### 미완성/ 진행중인 코드 표시
+
+코드 상단에 TODO 주석을 넣는다.
+
+검색을 위해 다음 용도에 대한 주석은 고정 :
+
+- `TODO : unfinished` (미완성 또는 틀린 코드)
+- `TODO : could be improved` 
+- `TODO : review code`
+
+메모는 TODO와 같이 작성한다. -> `NOTE : ~`

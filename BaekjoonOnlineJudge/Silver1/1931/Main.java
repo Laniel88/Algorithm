@@ -1,8 +1,8 @@
-// WORKING ON 
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.StringTokenizer;
 
 public class Main {
@@ -17,30 +17,25 @@ public class Main {
             meetingInfo[i][1] = Integer.parseInt(st.nextToken());
         }
 
-        // 회의 종료 시간 기준 정렬
-        for(int i=1; i < meetingInfo.length; i++){
-            for(int j=i ; j > 0; j--){
-                if(meetingInfo[j][1] < meetingInfo[j-1][1]){
-                    int[] tmp = meetingInfo[j];
-                    meetingInfo[j] = meetingInfo[j-1];
-                    meetingInfo[j-1] = tmp;
-                } else if(meetingInfo[j][0] == meetingInfo[j-1][0]){
-                    
-                } else break;
-            }
-        }
+        Arrays.sort(meetingInfo, new Comparator<int[]>() {
 
-        int start = 0;
+            @Override
+            public int compare(int[] o1, int[] o2) {
+                if(o1[1] == o2[1]) 
+                    return o1[0] - o2[0];
+                
+                return o1[1] - o2[1];
+            }
+        });
         
-        while(true) {
-            int minEndIndex = start;
-            for(int i = start + 1; i < N; i++) {
+        int cnt = 1, validMeetingIndex = 0;
 
-                if(meetingInfo[i][1] < meetingInfo[minEndIndex][1])
-                    minEndIndex = i;
+        for(int i = 1; i < N; i++) {
+            if(meetingInfo[validMeetingIndex][1] <= meetingInfo[i][0]){
+                validMeetingIndex = i;
+                cnt++;
             }
-            
         }
-
+        System.out.println(cnt);
     }   
 }

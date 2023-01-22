@@ -1,3 +1,6 @@
+# Java Class file
+*.class
+
 # macOS General
 .DS_Store
 .AppleDouble
@@ -7,26 +10,20 @@
 .obsidian/
 .vscode/
 
-# test
+# test file/folders
 test/
 test.*
 
-# etc
+# other files(template, notes ...)
+.template/
 .etc/
-
-# note
 Notes.md
+Milestone.md
 
 # reference
 reference/
 ref/
 ref*.*
-
-# Template
-.template/
-
-# Milestone
-Milestone.md
 
 # Mecro : 폴더, readme 자동생성 메크로
 .mecro/
