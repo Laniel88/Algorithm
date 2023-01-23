@@ -1,5 +1,6 @@
-# Java Class file
+# Java : Class file, codeRunner file ...
 *.class
+tempCodeRunnerFile.java
 
 # macOS General
 .DS_Store
