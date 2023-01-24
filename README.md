@@ -1,10 +1,17 @@
 # Algorithm
 
-**Repository of Algorithm studies**
+<div style="text-align: left;">
+<img src="https://skillicons.dev/icons?i=java" alt="main-icon" height="25"/> <img src="https://skillicons.dev/icons?i=python,cpp" alt="sub1-icon" height="25"/> <img src="https://skillicons.dev/icons?i=c," alt="sub2-icon" height="25"/><br><img src="https://img.shields.io/static/v1?label=Main%20Language&message=JAVA&color=9f4e13&style=for-the-badge&labelColor=3f1a00" alt="BOJ" height="25"/> <img src="https://img.shields.io/static/v1?label=Sub%20Language&message=Python,%20CPP...&color=3f3f3f&style=for-the-badge&labelColor=222222" alt="BOJ" height="25"/><br><img src="https://img.shields.io/static/v1?label=Baekjoon%20Online%20Judge&message=Laniel88&color=0078c3&style=for-the-badge&labelColor=3c4861" alt="BOJ" height="25"/> <img src="https://img.shields.io/static/v1?label=Leet%20Code&message=Laniel88&color=ffa116&style=for-the-badge&labelColor=3f3f3f" alt="BOJ" height="25"/>
+
+</div>
+
+### **Repository of Algorithm studies**
 
 알고리즘 공부 내용을 정리하고 있는 레파지토리입니다.
 
 > 주 언어는 Java이며, 필요에 따라 C++, Python과 기타 언어도 사용합니다.
+>
+> 참고 자료(AC), 문제 내용 등을 비롯한 몇몇 파일들은
 
 ## Rule
 
@@ -46,8 +53,7 @@
   BaekjoonOnlineJudge/Bronze5/1000/main2.py
   ```
 
-
-----
+---
 
 ## ETC
 
@@ -74,7 +80,7 @@
 검색을 위해 다음 용도에 대한 주석은 고정 :
 
 - `TODO : unfinished` (미완성 또는 틀린 코드)
-- `TODO : could be improved` 
+- `TODO : could be improved`
 - `TODO : review code`
 
 메모는 TODO와 같이 작성한다. -> `NOTE : ~`
