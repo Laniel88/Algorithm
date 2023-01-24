@@ -1,6 +1,6 @@
 /*
 NOTE :
- 아래 코드는 3356ms로 성공했다. (binary search 후 각각 바로 결과값 출력)
+ 아래 코드는 성공 (binary search 후 각각 바로 결과값 출력)
  
  이 코드 이전에, result = new int[N]; 을 만들어
  0과 1값을 저장하고, for문으로 result 배열을 출력-sysout-하는 방식은 시간초과가 발생했다.

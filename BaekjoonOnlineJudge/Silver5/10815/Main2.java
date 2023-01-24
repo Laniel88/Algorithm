@@ -1,4 +1,4 @@
-/* TODO :  직접구현한 탐색메소드가 아닌, Java.util.Arrays의 BinarySearch 메소드를 이용해서 빠르게 답을 구해본다. */
+/* TODO :  unfinished - 직접구현한 탐색메소드가 아닌, Java.util.Arrays의 BinarySearch 메소드를 이용해서 빠르게 답을 구해본다. */
 
 import java.io.BufferedReader;
 import java.io.IOException;
