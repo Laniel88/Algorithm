@@ -1,8 +1,7 @@
 # Algorithm
 
 <div style="text-align: left;">
-<img src="https://skillicons.dev/icons?i=java" alt="main-icon" height="25"/> <img src="https://skillicons.dev/icons?i=python,cpp" alt="sub1-icon" height="25"/> <img src="https://skillicons.dev/icons?i=c" alt="sub2-icon" height="25"/> <img src="https://drive.google.com/uc?export=view&id=1oZhfO8yLw-McLD1jlWv9xo3y9_olJdFW" alt="boj_rounded_icon" height="24"/> <img src="https://drive.google.com/uc?export=view&id=1R2E_NwAnTgbNFFWz5TFvrKwwt9_4UmVk" alt="leetcode_icon" height="24"/><br><img src="https://img.shields.io/static/v1?label=Main%20Language&message=JAVA&color=9f4e13&style=for-the-badge&labelColor=222222" alt="BOJ" height="25"/> <img src="https://img.shields.io/static/v1?label=Sub%20Language&message=Python,%20CPP...&color=3f3f3f&style=for-the-badge&labelColor=222222" alt="BOJ" height="25"/><br><img src="https://img.shields.io/static/v1?label=Baekjoon%20Online%20Judge&message=Laniel88&color=0078c3&style=for-the-badge&labelColor=3c4861" alt="BOJ" height="25"/> <img src="https://img.shields.io/static/v1?label=Leet%20Code&message=Laniel88&color=b5740f&style=for-the-badge&labelColor=3f3f3f" alt="BOJ" height="25"/>
-
+<img src="https://skillicons.dev/icons?i=java" alt="main-icon" height="25"/> <img src="https://skillicons.dev/icons?i=python,cpp" alt="sub1-icon" height="25"/> <img src="https://skillicons.dev/icons?i=c" alt="sub2-icon" height="25"/> <a href="https://www.acmicpc.net"><img src="https://drive.google.com/uc?export=view&id=1oZhfO8yLw-McLD1jlWv9xo3y9_olJdFW" alt="boj_rounded_icon" height="24"/></a> <a href="https://leetcode.com"><img src="https://drive.google.com/uc?export=view&id=1R2E_NwAnTgbNFFWz5TFvrKwwt9_4UmVk" alt="leetcode_icon" height="24"/></a><br><img src="https://img.shields.io/static/v1?label=Main%20Language&message=JAVA&color=9f4e13&style=for-the-badge&labelColor=222222" alt="BOJ" height="25"/> <img src="https://img.shields.io/static/v1?label=Sub%20Language&message=Python,%20CPP...&color=3f3f3f&style=for-the-badge&labelColor=222222" alt="BOJ" height="25"/><br><img src="https://img.shields.io/static/v1?label=Baekjoon%20Online%20Judge&message=Laniel88&color=0078c3&style=for-the-badge&labelColor=3c4861" alt="BOJ" height="25"/> <img src="https://img.shields.io/static/v1?label=Leet%20Code&message=Laniel88&color=b5740f&style=for-the-badge&labelColor=3f3f3f" alt="BOJ" height="25"/>
 </div>
 
 ### **Repository of Algorithm studies**
@@ -38,7 +37,11 @@
   >
   > - 같은 문제와 언어에 대해 여러 종류의 코드가 있을 때 구별하기 위해 사용
   > - "", 2, 3, 4 .. 로 표기
-  > - 🙏 자바 파일의 경우 `main` 대신 `Main`으로 한다.
+
+
+  > 예외 :
+  > - 백준 **자바 파일**의 경우 `main` 대신 `Main`으로 한다.
+  > - leetCode **자바 파일**의 경우 `main` 대신 `Solution`으로 한다. (사이트 양식의 클래스 명에 맞춤)
 
 - 특별한 이유가 없다면 폴더/파일명은 영어로 적으며, 파스칼 케이스(pascal case)로 표기한다.
 
