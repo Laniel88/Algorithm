@@ -15,9 +15,14 @@
    <font color="grey">2247, 10815 <i><br>(2448, 1992, 1081, 11728, 1780, 11729, 1914, 2263, 13277)</i></font>
    > https://www.acmicpc.net/workbook/view/798
 
+### 1.3 동적 계획법 (Dynamic programming)
+- **BOJ**  
+   <font color="grey">1149, 1463, 14501 <i><br></i></font>
+
+
 ## 2 ETC
 
-#### 별찍기
+#### 2.1 별찍기
 
 - BOJ  
    <font color="grey">2438~2447, 10997, 13015<i><br>(2448, 2552, 2553, 2556, 10990 ~ 10996)</i></font>
