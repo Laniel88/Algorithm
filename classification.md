@@ -12,12 +12,12 @@
 ### 1.2 분할정복
 
 - **BOJ**  
-   <font color="grey">2247, 10815 <i><br>(2448, 1992, 1081, 11728, 1780, 11729, 1914, 2263, 13277)</i></font>
+   <font color="grey">2247, 10815 <br><i>(2448, 1992, 1081, 11728, 1780, 11729, 1914, 2263, 13277)</i></font>
    > https://www.acmicpc.net/workbook/view/798
 
-### 1.3 동적 계획법 (Dynamic programming)
+### 1.3 동적 계획법 (Dynamic programming, DP)
 - **BOJ**  
-   <font color="grey">1149, 1463, 14501 <i><br></i></font>
+   <font color="grey">1149, 1463, 14501, 2156, 11053 <br><i></i></font>
 
 
 ## 2 ETC

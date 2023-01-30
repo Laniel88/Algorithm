@@ -1,55 +1,37 @@
-// TODO : unfinished
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
 
 public class Main {
-
-    final static int select_true = 1;
-    final static int select_false = 0;
-
     public static void main(String[] args) throws NumberFormatException, IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st;
 
         int N = Integer.parseInt(br.readLine());
 
         int[] wines = new int[N];
-        for(int i=0; i<N; i++) {
-            st = new StringTokenizer(br.readLine());
-            wines[i] = Integer.parseInt(st.nextToken());
+
+        for(int i=0; i<N; i++)
+            wines[i] = Integer.parseInt(br.readLine());
+
+        int[] DP = new int[N];
+
+        DP[0] = wines[0];
+        if(N > 1) DP[1] = wines[0] + wines[1];
+        if(N > 2) DP[2] = ternaryMax(DP[1], wines[1] + wines[2], wines[0] + wines[2]);
+
+        for(int i=3; i<N; i++){
+            DP[i] = ternaryMax(
+                    DP[i-1],
+                    DP[i-2] + wines[i], 
+                    DP[i-3] + wines[i-1] + wines[i]
+                );
         }
-        
-        int[][] DP = new int[N][2];
+        System.out.println(DP[N-1]);
+    }
 
-        DP[0][0] = 6;
-        DP[0][1] = 6;
-        DP[1][0] = 6;
-        DP[1][1] = 16;
-
-        for(int i=2; i<N; i++) {
-            DP[i][0] = Math.max(
-                            Math.max(wines[i-1], wines[i-2]) + wines[i], 
-                            wines[i-1] + wines[i-2]
-                        );
-            System.out.println(String.format("wines[%d] : %d", i, wines[i]));
-        }
-
-        System.out.println(Math.max(wines[N-1], wines[N-2]));
-
+    private static int ternaryMax(int a, int b, int c){
+        return Math.max(a, Math.max(b, c));
     }
 }
 
-/*
-
- 6  6
- 10 16
- 13 23
- 9  
- 8
- 1
-
-답 : 23
- */
+/* TODO : review code */
