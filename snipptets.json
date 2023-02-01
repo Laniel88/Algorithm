@@ -1,0 +1,113 @@
+{
+  "_comment": "[VScode - Configure User Snipptets]에서 사용 가능한 snippet",
+  ".java": {
+    "get int N using BR": {
+      "prefix": "getN",
+      "body": [
+        "import java.io.BufferedReader;",
+        "import java.io.IOException;",
+        "import java.io.InputStreamReader;\n",
+        "public class Main {",
+        "    public static void main(String[] args) throws NumberFormatException, IOException {",
+        "        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));",
+        "        int N = Integer.parseInt(br.readLine());",
+        "    }\n}"
+      ],
+      "description": "get int N using BR"
+    },
+
+    "get String S using BR": {
+      "prefix": "getS",
+      "body": [
+        "import java.io.BufferedReader;",
+        "import java.io.IOException;",
+        "import java.io.InputStreamReader;\n",
+        "public class Main {",
+        "    public static void main(String[] args) throws NumberFormatException, IOException {",
+        "        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));",
+        "        String S = br.readLine();",
+        "    }\n}"
+      ],
+      "description": "get String S using BR"
+    },
+
+    "get int A, B using ST": {
+      "prefix": "getAB",
+      "body": [
+        "import java.io.BufferedReader;",
+        "import java.io.IOException;",
+        "import java.io.InputStreamReader;",
+        "import java.util.StringTokenizer;\n",
+        "public class Main {",
+        "    public static void main(String[] args) throws NumberFormatException, IOException {",
+        "        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));",
+        "        StringTokenizer st = new StringTokenizer(br.readLine());",
+        "        int A = Integer.parseInt(st.nextToken());",
+        "        int B = Integer.parseInt(st.nextToken());",
+        "    }\n}"
+      ],
+      "description": "get int A, B using ST"
+    },
+
+    "get int arr[N][2] using BR, ST": {
+      "prefix": "getArrN2",
+      "body": [
+        "import java.io.BufferedReader;",
+        "import java.io.IOException;",
+        "import java.io.InputStreamReader;",
+        "import java.util.StringTokenizer;\n",
+        "public class Main {",
+        "    public static void main(String[] args) throws NumberFormatException, IOException {",
+        "        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));",
+        "        int N = Integer.parseInt(br.readLine());\n",
+        "        int[][] ${1:arr} = new int[N][2];",
+        "        for(int i=0; i<N; i++) {",
+        "            StringTokenizer st = new StringTokenizer(br.readLine());",
+        "            ${1:arr}[i][0] = Integer.parseInt(st.nextToken());",
+        "            ${1:arr}[i][1] = Integer.parseInt(st.nextToken());",
+        "        }",
+        "    }\n}"
+      ],
+      "description": "get arr[N][2] using BR, ST"
+    },
+
+    "get int arr[N] using BR": {
+      "prefix": "getArrN",
+      "body": [
+        "import java.io.BufferedReader;",
+        "import java.io.IOException;",
+        "import java.io.InputStreamReader;\n",
+        "public class Main {",
+        "    public static void main(String[] args) throws NumberFormatException, IOException {",
+        "        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));",
+        "        int N = Integer.parseInt(br.readLine());\n",
+        "        int[] ${1:arr} = new int[N];",
+        "        for(int i=0; i<N; i++) {",
+        "            ${1:arr}[i] = Integer.parseInt(st.nextToken());",
+        "        }",
+        "    }\n}"
+      ],
+      "description": "get arr[N] using BR"
+    },
+
+    "get int arr[fixedNum] using ST": {
+      "prefix": "getArrFixed",
+      "body": [
+        "import java.io.BufferedReader;",
+        "import java.io.IOException;",
+        "import java.io.InputStreamReader;",
+        "import java.util.StringTokenizer;\n",
+        "public class Main {",
+        "    public static void main(String[] args) throws NumberFormatException, IOException {",
+        "        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));",
+        "        StringTokenizer st = new StringTokenizer(br.readLine());",
+        "        int[] ${1:arr} = new int[${2:1}];",
+        "        for(int i=0; i<${2:1}; i++) {",
+        "            ${1:arr}[i] = Integer.parseInt(st.nextToken());",
+        "        }",
+        "    }\n}"
+      ],
+      "description": "get arr[fixedNum] using ST"
+    }
+  }
+}
