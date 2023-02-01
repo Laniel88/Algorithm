@@ -16,14 +16,13 @@
 
 <br>
 
-<div style="text-align: center;">
+<div align="center">
 <h4>🏁 SHORTCUT 🏁</h4>
 
 <a href="##Rules">RULES</a>  
-<a href="classification.md">CLASSIFICATION</a>  
-<a href="goals.md">GOALS</a>  
-<a href="snipptets.json">SNIPPETS</a>  
-
+<a href="_classification.md">CLASSIFICATION</a>  
+<a href="_goals.md">GOALS</a>  
+<a href="_snipptets.json">SNIPPETS</a>  
 </div>
 
 ## Rules
