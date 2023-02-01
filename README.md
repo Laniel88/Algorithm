@@ -10,12 +10,12 @@
 
 > 주 언어는 ***Java***이며, 필요에 따라 _C++_, *Python*과 기타 언어도 사용합니다.
 
-#### 🏁 Shortcuts
+#### 🏁 Shortcut
 
-- [Rules](##Rules)
-- [Classification](./classification.md)
-- [Goals](./goals.md)
-- [Snippets](./snippets.json)
+- [RULES](##Rules)
+- [CLASSIFICATION](./classification.md)
+- [GOALS](./goals.md)
+- [SNIPPETS](./snippets.json)
 
 
 ## Rules
