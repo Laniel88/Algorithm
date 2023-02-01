@@ -8,23 +8,9 @@
 
 알고리즘 공부 내용을 정리하고 있는 레파지토리입니다.
 
+**🏁 Links :** [Rules](##Rules), [Classification](./Classification.md), [Goals](./Goals.md)
+
 > 주 언어는 **Java**이며, 필요에 따라 _C++_, *Python*과 기타 언어도 사용합니다.
-
-> **🏁 Shortcuts :** [Goals](##Goals), [Rules](##Rules)
-
----
-
-## Goals
-
-| GOALS                             | STATUS |  DATE   |
-| :-------------------------------- | :----: | :-----: |
-| BOJ : Silver                      |   ✅   | 2023.01 |
-| BOJ : Gold                        |   🚀   |    -    |
-| BOJ : Class 1                     |   ✅   | 2023.02 |
-| BOJ : Class 2                     |   🚀   |    -    |
-| LeetCode : Top 100 Liked Q - Easy |   🚀   |    -    |
-
----
 
 ## Rules
 
