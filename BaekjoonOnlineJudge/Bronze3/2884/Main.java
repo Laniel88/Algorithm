@@ -7,10 +7,21 @@ public class Main {
     public static void main(String[] args) throws NumberFormatException, IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int cnt = 0;
-        for(int i=0; i<5; i++) {
-            cnt += (int) Math.pow(Integer.parseInt(st.nextToken()),2);
+        int hour = Integer.parseInt(st.nextToken());
+        int minute = Integer.parseInt(st.nextToken());
+
+        minute -= 45;
+
+        if(minute < 0) {
+            minute += 60;
+            hour--;
         }
-        System.out.println(cnt%10);
+
+        if(hour < 0)
+            hour = 23;
+        else if(hour > 23)
+            hour = 0;
+
+        System.out.println(String.format("%d %d", hour, minute));
     }
 }

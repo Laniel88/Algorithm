@@ -7,10 +7,8 @@ public class Main {
     public static void main(String[] args) throws NumberFormatException, IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int cnt = 0;
-        for(int i=0; i<5; i++) {
-            cnt += (int) Math.pow(Integer.parseInt(st.nextToken()),2);
-        }
-        System.out.println(cnt%10);
+        int A = Integer.parseInt(st.nextToken());
+        int B = Integer.parseInt(st.nextToken());
+        System.out.println(A*B);
     }
 }

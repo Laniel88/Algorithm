@@ -7,10 +7,14 @@ public class Main {
     public static void main(String[] args) throws NumberFormatException, IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int cnt = 0;
-        for(int i=0; i<5; i++) {
-            cnt += (int) Math.pow(Integer.parseInt(st.nextToken()),2);
+        int N = Integer.parseInt(st.nextToken());
+        int X = Integer.parseInt(st.nextToken());
+
+        st = new StringTokenizer(br.readLine());
+        for(int i=0; i<N; i++) {
+            int temp = Integer.parseInt(st.nextToken());
+            if(temp < X) System.out.print(String.format("%d ",temp));
         }
-        System.out.println(cnt%10);
+        System.out.println();
     }
 }
