@@ -16,7 +16,7 @@
 
 <br>
 
-<div style="text-align: center; list-style-position: inside;">
+<div style="text-align: center;">
 <h4>🏁 SHORTCUT 🏁</h4>
 
 <a href="##Rules">RULES</a>  
