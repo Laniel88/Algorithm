@@ -11,7 +11,6 @@
 > 주 언어는 **Java**이며, 필요에 따라 _C++_, *Python*과 기타 언어도 사용합니다.
 
 ---
-<br>
 
 <div align="center">
 <h4>🏁 SHORTCUT 🏁</h4>
@@ -21,8 +20,6 @@
 <a href="goals.md">GOALS</a>  
 <a href="snipptets.json">SNIPPETS</a>  
 </div>
-
-<br>
 
 ---
 
