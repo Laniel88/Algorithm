@@ -8,6 +8,7 @@
 | Solved.ac : Gold    |   🚀   |    -    |
 | Solved.ac : Class 1 |   ✅   | 2023.02 |
 | Solved.ac : Class 2 |   🚀   |    -    |
+| [BOJ Workbook : 별찍기](https://www.acmicpc.net/workbook/view/20) | ✅ | 2023.02 |
 
 
 ## LeetCode
