@@ -1,4 +1,3 @@
+# (1978)
 
-#  (1978)
-
-https://www.acmicpc.neBt/problem/1978
+https://www.acmicpc.net/problem/1978
