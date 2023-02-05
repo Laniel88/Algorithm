@@ -8,7 +8,6 @@ public class Main {
         String line = br.readLine();
 
         /* NOTE : `==` 연산자를 사용할 경우 올바른 결과가 나오지 않음(equlas 사용) */
-        /* TODO : review code */
         if(line.equals("1 2 3 4 5 6 7 8")) {
             System.out.println("ascending");
         } else if(line.equals("8 7 6 5 4 3 2 1")) {
@@ -17,4 +16,4 @@ public class Main {
             System.out.println("mixed");
         }
     }
-}
+} 

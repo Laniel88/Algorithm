@@ -13,10 +13,13 @@ Algorithmic Problem Solving Strategies
 구종만 지음, 인사이트, ISBN 978-89-6626-054-6  
 **a.k.a 종만북**
 
-## 목차
+## 문제
 
-- Chap. 6 : 무식하게 풀기
-  - [BOGGLE](./BOGGLE)
+| ID | CHAPTER | NOTE |
+| :-- | :---- | :--- |
+| [BOGGLE](./BOGGLE) | Chap. 6 (무식하게 풀기)<br>Chap. 8 (동적 계획법)  | - |
+| [JOSEPHUS](./JOSEPHUS) | Chap. 18 (선형 자료 구조)<br>Chap. 19 (큐와 스택, 데크) | - |
+
 
 ## Rules
 
