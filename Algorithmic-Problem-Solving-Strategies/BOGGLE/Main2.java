@@ -1,5 +1,3 @@
-package BOGGLE;
-
 /* 6장 기준 - 완전 탐색 */
 // TODO : unfinished
 
