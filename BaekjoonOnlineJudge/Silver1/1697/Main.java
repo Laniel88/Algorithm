@@ -1,3 +1,5 @@
+/* TODO : review code */
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -16,10 +18,10 @@ public class Main {
         Queue<Integer> queue = new LinkedList<>();
         queue.add(N);
 
-        if(N == K) {
+        if(N == K) { 
             System.out.println(0);
-            return;
-        }
+            return; 
+        } 
 
         while(!queue.isEmpty()) {
             int current = queue.poll();
