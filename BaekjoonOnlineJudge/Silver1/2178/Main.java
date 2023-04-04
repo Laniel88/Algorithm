@@ -1,5 +1,5 @@
 /* TODO : review code */
-/* NOTE : dfs로 하면 시간초과 */
+/* NOTE : DFS로 하면 시간초과 */
 
 import java.io.BufferedReader;
 import java.io.IOException;
