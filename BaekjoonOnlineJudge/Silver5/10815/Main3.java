@@ -1,4 +1,4 @@
-/* 시간초과 코드 : for문을 통한 모든 경우 탐색  */
+/* 시간초과 : for문을 통한 모든 경우 탐색  */
 
 import java.io.BufferedReader;
 import java.io.IOException;

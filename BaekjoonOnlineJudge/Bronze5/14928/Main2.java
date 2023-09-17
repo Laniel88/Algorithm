@@ -1,4 +1,4 @@
-/* 시간초과 코드 */
+/* 시간초과 */
 
 import java.io.BufferedReader;
 import java.io.IOException;
