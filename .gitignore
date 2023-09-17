@@ -1,6 +1,7 @@
 # Java : Class file, codeRunner file ...
 *.class
 tempCodeRunnerFile.java
+snippets.json
 
 # macOS General
 .DS_Store

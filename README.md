@@ -6,12 +6,10 @@
 
 ### **Repository of Algorithm studies**
 
-알고리즘 공부 (Java, ...)
+- 🏁 Lang : **Java**, Python, etc.
+- 🌐 Platform : **BOJ**, LeetCode, etc. 
 
-#### 🏁 Shortcut
-
-- [RULES](##Rules)
-- [SNIPPETS](./snippets.json)
+---
 
 ## Rules
 
