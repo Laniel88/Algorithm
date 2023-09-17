@@ -7,9 +7,9 @@
 ### **Repository of Algorithm studies**
 
 - 🏁 Lang : **Java**, Python, etc.
-- 🌐 Platform : **BOJ**, LeetCode, etc. 
+- 🌐 Platform : [**BOJ**](https://www.acmicpc.net/), [LeetCode](https://leetcode.com/), etc. 
 
----
+<br>
 
 ## Rules
 
@@ -24,16 +24,16 @@
 - 폴더의 구성방식과 이름
 
   - **{1} : 출처** (사이트/강의/책 등)
-     - 사이트에 관한 정보와 2의 분류 기준을 `{1}/README.md`에 명시
-  - **{2} : 출처 세부 분류 (티어 등)** (or 생략)
+     - 사이트에 관한 정보와 2의 분류 기준 -> `{1}/README.md`
+  - **{2} : 출처 세부 분류 (티어 등)** or 생략
   - **{3} : 문제의 번호, 코드, 제목 등**
-     - 문제에 관한 상세 정보 : `{1}/{2}/{3}/README.md`
+     - 문제에 관한 상세 정보 -> `{1}/{2}/{3}/README.md`
 
-- 코드 파일 : 파일명은 기본적으로 `main`으로 하되, 채점 사이트와 언어에 따라 변경.
+- 코드 파일 : 파일명은 기본적으로 `main` (채점 사이트와 언어에 따라 변경)
   - 백준 **자바 파일**의 경우 `Main`
   - leetCode **자바 파일**의 경우 `Solution`
 
-- 폴더/파일명은 영문 pascalCase로 표기 (가독성 떨어지면 hyphen 사용)
+- 폴더/파일명은 영문 PascalCase로 표기 (가독성 떨어지면 hyphen 사용)
 
   ```
   # 백준 1000번(B5)의 파이썬 첫번째와 두번째 풀이
@@ -41,9 +41,7 @@
   BaekjoonOnlineJudge/Bronze5/1000/main2.py
   ```
 
-### Comment
-
-최상단/최하단
+### Comments
 
 #### 미완성/ 진행중인 코드 표시
 
